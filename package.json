@@ -1,0 +1,53 @@
+{
+  "name": "sugo-ci-example",
+  "version": "1.0.0",
+  "description": "CI scripts for example projects",
+  "main": "lib",
+  "scripts": {
+    "prepublish": "./ci/build.js",
+    "test": "./ci/test.js"
+  },
+  "repository": "realglobe-Inc/sugo-ci-example",
+  "keywords": [
+    "SUGOS"
+  ],
+  "author": {
+    "name": "Taka Okunishi",
+    "email": "okunishitaka.com@gmail.com",
+    "url": "http://okunishitaka.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/realglobe-Inc/sugo-ci-example/issues"
+  },
+  "homepage": "https://github.com/realglobe-Inc/sugo-ci-example#readme",
+  "dependencies": {
+    "ape-compiling": "^4.3.3",
+    "ape-covering": "^3.0.3",
+    "ape-deploying": "^5.0.2",
+    "ape-formatting": "^1.0.0",
+    "ape-releasing": "^4.0.1",
+    "ape-reporting": "^3.0.1",
+    "ape-tasking": "^4.0.3",
+    "ape-testing": "^4.0.0",
+    "ape-tmpl": "^5.0.11",
+    "ape-updating": "^4.0.4",
+    "ape-watching": "^2.1.1",
+    "co": "^4.6.0",
+    "expandglob": "^3.0.2",
+    "stringcase": "^3.0.1"
+  },
+  "devDependencies": {
+    "ape-doc": "^2.0.3",
+    "coz": "^6.0.3",
+    "defaults": "^1.0.3",
+    "injectmock": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  },
+  "publishConfig": {
+    "registry": "https://realglobe.artifactoryonline.com/realglobe/api/npm/npm-local"
+  }
+}
