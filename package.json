@@ -1,6 +1,6 @@
 {
   "name": "sugo-ci-example",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "CI scripts for example projects",
   "main": "lib",
   "scripts": {
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/realglobe-Inc/sugo-ci-example#readme",
   "dependencies": {
     "abrowserify": "^1.0.13",
+    "aglob": "^1.0.1",
     "ape-compiling": "^4.3.3",
     "ape-covering": "^3.0.3",
     "ape-deploying": "^5.0.2",
