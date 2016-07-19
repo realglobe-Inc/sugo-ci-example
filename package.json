@@ -1,6 +1,6 @@
 {
   "name": "sugo-ci-example",
-  "version": "1.0.1",
+  "version": "2.0.1",
   "description": "CI scripts for example projects",
   "main": "lib",
   "scripts": {
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/realglobe-Inc/sugo-ci-example#readme",
   "dependencies": {
+    "abrowserify": "^1.0.13",
     "ape-compiling": "^4.3.3",
     "ape-covering": "^3.0.3",
     "ape-deploying": "^5.0.2",
@@ -33,6 +34,7 @@
     "ape-tmpl": "^5.0.11",
     "ape-updating": "^4.0.4",
     "ape-watching": "^2.1.1",
+    "ascss": "^1.0.1",
     "asfs": "^1.0.4",
     "co": "^4.6.0",
     "expandglob": "^3.0.2",
@@ -42,6 +44,9 @@
     "sugos-assets": "^1.1.9"
   },
   "devDependencies": {
+    "ababel": "^1.0.18",
+    "ababel-es2015": "^1.0.1",
+    "ababel-react": "^1.0.1",
     "ape-doc": "^2.0.3",
     "coz": "^6.0.3",
     "defaults": "^1.0.3",

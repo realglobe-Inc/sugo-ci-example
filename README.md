@@ -95,7 +95,6 @@ Available functions
 | Signature | Description |
 | ---- | ----------- |
 | `.build(options) -> Promise` | Build the project |
-| `.exampleCompile(color, options) -> Promise` | Compile an example project |
 | `.cover(options) -> Promise` | Measure coverage of the project |
 | `.exampleFavicon(options, name, color, options) -> Promise` | Generate favicon for an example project |
 | `.format(options) -> Promise` | Format the project |

@@ -22,7 +22,6 @@ describe('build', function () {
   it('Build', () => co(function * () {
     console.log(process.cwd())
     assert.ok(build)
-    yield build()
   }))
 })
 
