@@ -105,6 +105,7 @@ Available functions
 | `.share(pkg, options) -> Promise` | Share the project |
 | `.test(options) -> Promise` | Run test for the project. |
 | `.update(options) -> Promise` | Update dependencies for the project. |
+| `.watch(options) -> Promise` | Watch to run tasks |
 
 
 <!-- Section from "doc/guides/03.Functions.md.hbs" End -->

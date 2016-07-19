@@ -1,6 +1,6 @@
 {
   "name": "sugo-ci-example",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "CI scripts for example projects",
   "main": "lib",
   "scripts": {
@@ -33,7 +33,7 @@
     "ape-testing": "^4.0.0",
     "ape-tmpl": "^5.0.11",
     "ape-updating": "^4.0.4",
-    "ape-watching": "^2.1.1",
+    "ape-watching": "^2.1.2",
     "ascss": "^1.0.1",
     "asfs": "^1.0.4",
     "co": "^4.6.0",
