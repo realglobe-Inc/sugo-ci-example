@@ -5,11 +5,9 @@ before_install:
 - echo "registry = https://realglobe.artifactoryonline.com/realglobe/api/npm/npm-virtual" > .npmrc
 - curl -u${NPM_USER}:${NPM_PASSWORD} "https://realglobe.artifactoryonline.com/realglobe/api/npm/auth" >> .npmrc
 - cat .npmrc
-- npm install mocha node-sass istanbul fur -g
+- npm install node-sass fur -g
 install:
 - npm install
-before_script:
-- npm link .
 script:
 - ./ci/build.js
 - ./ci/test.js
