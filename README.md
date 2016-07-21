@@ -53,6 +53,7 @@ CI scripts for example projects
 <!-- Section from "doc/guides/01.Installation.md.hbs" Start -->
 
 <a name="section-doc-guides-01-installation-md"></a>
+
 Installation
 -----
 
@@ -66,6 +67,7 @@ $ npm install sugo-ci-example --save-dev
 <!-- Section from "doc/guides/02.Usage.md.hbs" Start -->
 
 <a name="section-doc-guides-02-usage-md"></a>
+
 Usage
 ---------
 
@@ -87,6 +89,7 @@ sugoCiExample.build({})
 <!-- Section from "doc/guides/03.Functions.md.hbs" Start -->
 
 <a name="section-doc-guides-03-functions-md"></a>
+
 Functions
 ---------
 
