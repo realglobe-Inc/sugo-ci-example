@@ -24,6 +24,7 @@
   "dependencies": {
     "abrowserify": "^1.0.14",
     "aglob": "^1.0.1",
+    "amap": "^1.0.2",
     "amocha": "^1.0.8",
     "ape-deploying": "^5.0.4",
     "ape-formatting": "^1.0.2",
@@ -33,6 +34,9 @@
     "ape-tmpl": "^5.0.14",
     "ape-updating": "^4.0.4",
     "ape-watching": "^2.1.2",
+    "ababel": "^1.0.19",
+    "ababel-es2015": "^1.0.2",
+    "ababel-react": "^1.0.2",
     "apeman-asset-javascripts": "^3.1.52",
     "ascss": "^1.0.1",
     "asfs": "^1.0.5",
@@ -44,11 +48,7 @@
     "sugos-assets": "^2.0.1"
   },
   "devDependencies": {
-    "ababel": "^1.0.19",
-    "ababel-es2015": "^1.0.2",
-    "ababel-react": "^1.0.2",
     "aglob": "^1.0.1",
-    "amap": "^1.0.2",
     "ape-doc": "^2.0.4",
     "coz": "^6.0.14",
     "injectmock": "^2.0.0"
