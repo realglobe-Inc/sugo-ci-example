@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/realglobe-Inc/sugo-ci-example#readme",
   "dependencies": {
-    "ababel": "^1.0.19",
+    "ababel": "^1.0.21",
     "ababel-es2015": "^1.0.2",
     "ababel-react": "^1.0.2",
     "abrowserify": "^1.0.14",
@@ -37,7 +37,7 @@
     "ape-tmpl": "^5.0.14",
     "ape-updating": "^4.0.4",
     "ape-watching": "^2.1.2",
-    "apeman-asset-javascripts": "^4.0.0",
+    "apeman-asset-javascripts": "^4.0.2",
     "ascss": "^1.0.1",
     "asfs": "^1.0.5",
     "co": "^4.6.0",
