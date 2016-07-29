@@ -1,6 +1,6 @@
 {
   "name": "sugo-ci-example",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "CI scripts for example projects",
   "main": "lib",
   "scripts": {
