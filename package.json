@@ -1,6 +1,6 @@
 {
   "name": "sugo-ci-example",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "CI scripts for example projects",
   "main": "lib",
   "scripts": {
@@ -40,6 +40,7 @@
     "apeman-asset-javascripts": "^5.0.1",
     "ascss": "^1.0.1",
     "asfs": "^1.0.5",
+    "babel-polyfill": "^6.9.1",
     "co": "^4.6.0",
     "defaults": "^1.0.3",
     "filelink": "^3.0.3",
