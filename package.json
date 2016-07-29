@@ -37,7 +37,7 @@
     "ape-tmpl": "^5.0.14",
     "ape-updating": "^4.0.4",
     "ape-watching": "^2.1.2",
-    "apeman-asset-javascripts": "^5.0.1",
+    "apeman-asset-javascripts": "^5.0.3",
     "ascss": "^1.0.1",
     "asfs": "^1.0.5",
     "babel-polyfill": "^6.9.1",
