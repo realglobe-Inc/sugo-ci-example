@@ -46,7 +46,7 @@
     "filelink": "^3.0.5",
     "sg-check": "^1.0.6",
     "stringcase": "^3.0.1",
-    "sugos-assets": "^2.0.1"
+    "sugos-assets": "^2.0.3"
   },
   "devDependencies": {
     "aglob": "^1.0.1",
