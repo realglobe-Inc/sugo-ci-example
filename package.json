@@ -40,7 +40,7 @@
     "ascss": "^1.0.1",
     "asfs": "^1.0.5",
     "awatch": "^1.0.3",
-    "babel-polyfill": "^6.9.1",
+    "babel-polyfill": "^6.13.0",
     "co": "^4.6.0",
     "defaults": "^1.0.3",
     "filelink": "^3.0.5",
