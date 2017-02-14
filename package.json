@@ -1,11 +1,11 @@
 {
   "name": "sugo-ci-example",
-  "version": "3.0.5",
+  "version": "4.0.0",
   "description": "CI scripts for example projects",
   "main": "lib",
   "scripts": {
-    "prepublish": "./ci/build.js",
-    "test": "./ci/test.js"
+    "prepare": "node ./ci/build.js",
+    "test": "node ./ci/test.js"
   },
   "repository": "realglobe-Inc/sugo-ci-example",
   "keywords": [
@@ -16,7 +16,7 @@
     "email": "okunishitaka.com@gmail.com",
     "url": "http://okunishitaka.com"
   },
-  "license": "MIT",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/realglobe-Inc/sugo-ci-example/issues"
   },
@@ -32,7 +32,6 @@
     "ape-deploying": "^5.0.5",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
-    "ape-reporting": "^3.0.2",
     "ape-tasking": "^4.0.8",
     "ape-tmpl": "^5.0.15",
     "ape-updating": "^4.0.5",
@@ -52,13 +51,11 @@
     "aglob": "^1.0.1",
     "ape-doc": "^2.0.4",
     "coz": "^6.0.16",
-    "injectmock": "^2.0.0"
+    "injectmock": "^2.0.0",
+    "sugos-travis": "^2.0.6"
   },
   "engines": {
     "node": ">=6",
-    "npm": ">=3"
-  },
-  "publishConfig": {
-    "registry": "https://realglobe.artifactoryonline.com/realglobe/api/npm/npm-local"
+    "npm": ">=4"
   }
 }
